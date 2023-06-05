@@ -24,9 +24,8 @@ OR you can use `requirements.txt` to install all package versions
 pip install -r requirements.txt
 ```
 
-```console
-python3 movie_recommendation.py
-```
+Experiment in a simple Google colab environment.  
+https://colab.research.google.com/drive/1Y5QwG8r4Ky_kFuaCV6a4RYMrc00VIuJN?usp=sharing
 
 <br/>
 
