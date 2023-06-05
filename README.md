@@ -2,6 +2,34 @@
 ### 👋🏻 Introduction
 This code aims to predict movie ratings based on various features using different regression models. The dataset used contains information about movies, such as genre, budget, and runtime.
 
+<br/>
+
+### ✅ Getting Started
+First, please prepare Movielens dataset. The method currently learned uses 'ml-latest-small.zip' data from the movielens dataset. Other data are also available, and depending on the data used, there may be variations in learning time.
+
+https://grouplens.org/datasets/movielens/  
+https://grouplens.org/datasets/movielens/latest/
+
+Please place the data in the same directory afterwards. Above, you can place the data in the same location as the ipynb file.
+
+
+*development principal environment*
+- `python >= 3.9`
+- `matplotlib >= 3.7.1`
+- `pandas >= 1.5.3`
+- `sklearn >= 1.2.2`
+
+OR you can use `requirements.txt` to install all package versions
+```console
+pip install -r requirements.txt
+```
+
+```console
+python3 movie_recommendation.py
+```
+
+<br/>
+
 ### 🛒 Data Preparation
 - Load the dataset and perform necessary preprocessing steps such as handling missing values and encoding categorical variables.
 
