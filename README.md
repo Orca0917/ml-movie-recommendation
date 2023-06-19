@@ -36,6 +36,10 @@ https://colab.research.google.com/drive/1Y5QwG8r4Ky_kFuaCV6a4RYMrc00VIuJN?usp=sh
 - Perform exploratory data analysis to gain insights into the distribution of movie ratings and relationships between features.
 
 ## ⚙ Model Training and Evaluation
+
+### Evaluation Metrics
+$$ \text{RMSE} = \sqrt{\sum_{i=1}^n\frac{(\hat{y}_i - y_i)^2}{n}}\$$
+
 ### Linear Regression
 - Train a linear regression model using the preprocessed dataset.
 - Evaluate the model's performance using cross-validation and calculate the root mean squared error (RMSE).
@@ -69,6 +73,10 @@ https://colab.research.google.com/drive/1Y5QwG8r4Ky_kFuaCV6a4RYMrc00VIuJN?usp=sh
 - Discuss the strengths and weaknesses of the AdaBoost model.
 
 ## Results and Conclusion
+
+![image](https://github.com/Orca0917/ml-movie-recommendation/assets/91870042/166f852f-26fc-4891-b9e8-12371a217d3c)
+
+
 - Summarize the findings from the different regression models.
 - Compare the performance of each model based on the RMSE scores.
 - Provide insights and recommendations based on the analysis.
